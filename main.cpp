@@ -46,9 +46,10 @@ int main()
 
 	//Now delete the memory
 
-	FreeNodeList(head);
+	FreeNodeList(head); // This is the end
 
 
-    return 0;
+   /// return 0;
+   return 1;
 }
 
